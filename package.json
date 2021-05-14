@@ -4,7 +4,7 @@
   "license": "MIT",
   "scripts": {
     "dev": "charge serve src/pages",
-    "build": "charge build src public",
+    "build": "charge build src/pages public",
     "lint": "npx eslint ./ --ignore-path .gitignore",
     "    lint:fix": "yarn lint -- --fix"
   },

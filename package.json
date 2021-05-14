@@ -1,0 +1,17 @@
+{
+  "name": "aquarela-booking",
+  "version": "1.0.0",
+  "license": "MIT",
+  "scripts": {
+    "dev": "charge serve src",
+    "build": "charge build src public",
+    "lint": "npx eslint ./ --ignore-path .gitignore",
+    "    lint:fix": "yarn lint -- --fix"
+  },
+  "devDependencies": {
+    "@static/charge": "^1.7.0"
+  },
+  "dependencies": {
+    "prop-types": "^15.7.2"
+  }
+}

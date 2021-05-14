@@ -1,5 +1,5 @@
-import IframeLoader from './components/IframeLoader'
-import { GlobalStyle } from './styles/global'
+import IframeLoader from '../components/IframeLoader'
+import { GlobalStyle } from '../styles/global'
 
 
 export default () => (

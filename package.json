@@ -3,7 +3,7 @@
   "version": "1.0.0",
   "license": "MIT",
   "scripts": {
-    "dev": "charge serve src",
+    "dev": "charge serve src/pages",
     "build": "charge build src public",
     "lint": "npx eslint ./ --ignore-path .gitignore",
     "    lint:fix": "yarn lint -- --fix"
